@@ -1,9 +1,22 @@
-## Database - Datalagring Inlämningsuppgift
+### 🇸🇪 Webbutveckling inom .NET - Datalagring | Project by Filippa Fast
 
-### Konsolapplikationen:
+#### *This project involves building an issue management system where users can submit error reports for various issues and update the status of these issues. Important emphasis - The main purpose of the project is functionality, not design. The database is stored in Microsoft SQL Server. The database uses tables that are normalized to the 1st to 3rd Normal Form (NF). In the application, it is possible to create an issue/error report, which is saved in the storage solution. When an issue is registered, the following information is saved: the customer's first and last name, email address, phone number, description of the issue, the time when the issue was created, and the status of the issue.*
+
+#### ✔️ The project criteria include:
+- A database structure is implemented that is normalized to the 1st to 3rd Normal Form (NF).
+- There are two different tables that are related to each other.
+- Issues can be created and stored in the database.
+- All issues stored in the database are visible.
+- Specific issues in the database can be identified.
+- The status of an issue can be changed according to the available status options *(Not Started, In Progress, Completed)*.
+- There are at least four tables in the database.
+- Comments can be written for an issue.
+- It is possible to view an issue and see comments associated with it.
+  
+### Console Application:
 ![Menu](https://user-images.githubusercontent.com/111746756/227711605-7315625a-2adf-4d69-8e02-17fa05c745ef.jpg)
 
-### Tables - Strukturen
+### Tables - Structure
 #### Addresses
 ![Addresses](https://user-images.githubusercontent.com/111746756/227712007-977dfcb5-13dd-4959-bb30-b1eaab25821b.jpg)
 #### Cases
