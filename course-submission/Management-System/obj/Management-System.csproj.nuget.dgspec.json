@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\filip\\OneDrive\\Dokument\\Datalagring\\course-submission\\Management-System\\Management-System.csproj": {}
+    "C:\\Users\\filip\\Source\\Repos\\Database\\course-submission\\Management-System\\Management-System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\filip\\OneDrive\\Dokument\\Datalagring\\course-submission\\Management-System\\Management-System.csproj": {
+    "C:\\Users\\filip\\Source\\Repos\\Database\\course-submission\\Management-System\\Management-System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip\\OneDrive\\Dokument\\Datalagring\\course-submission\\Management-System\\Management-System.csproj",
+        "projectUniqueName": "C:\\Users\\filip\\Source\\Repos\\Database\\course-submission\\Management-System\\Management-System.csproj",
         "projectName": "Management-System",
-        "projectPath": "C:\\Users\\filip\\OneDrive\\Dokument\\Datalagring\\course-submission\\Management-System\\Management-System.csproj",
+        "projectPath": "C:\\Users\\filip\\Source\\Repos\\Database\\course-submission\\Management-System\\Management-System.csproj",
         "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filip\\OneDrive\\Dokument\\Datalagring\\course-submission\\Management-System\\obj\\",
+        "outputPath": "C:\\Users\\filip\\Source\\Repos\\Database\\course-submission\\Management-System\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -54,6 +59,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -76,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
