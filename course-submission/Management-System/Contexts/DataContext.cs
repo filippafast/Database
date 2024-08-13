@@ -22,10 +22,7 @@ namespace Management_System.Contexts
         {
         }
 
-        #region connection
-        private readonly string _connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\filip\OneDrive\Dokument\Datalagring\course-submission\Management-System\Contexts\db_context.mdf;Integrated Security=True;Connect Timeout=30";
-        #endregion
-
+      
         #region OnConfiguring
         //Connectar till databasen
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
