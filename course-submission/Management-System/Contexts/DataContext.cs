@@ -17,8 +17,12 @@ namespace Management_System.Contexts
         {
         }
 
-        #region connection
-        private readonly string _connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\filip\OneDrive\Dokument\Datalagring\course-submission\Management-System\Contexts\db_context.mdf;Integrated Security=True;Connect Timeout=30";
+        #region ConnectionString
+            public DataContext()
+        {
+        _connectionString = Environment.GetEnvironmentVariable("Connection_String");
+        }
+    
         #endregion
 
         #region constructors
@@ -31,9 +35,12 @@ namespace Management_System.Contexts
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-                optionsBuilder.UseSqlServer(_connectionString);
+	            if (_connectionString == null)
+	        {
+		        throw new InvalidOperationException("Anslutningssträngen är inte satt.");
+	        }
+        optionsBuilder.UseSqlServer(_connectionString);
         }
-
 
         #endregion
 
